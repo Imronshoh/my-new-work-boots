@@ -16,10 +16,17 @@
 }
 .list {
   display: flex;
+  max-width: 100%;
   justify-content: center;
   justify-content: space-evenly;
   margin-top: 80px;
 }
 .nav__item:hover {
   color:  rgb(87, 107, 131)";
+}
+@media (max-width:1155px) {
+    .list {
+flex-wrap: wrap;
+gap: 30px;
+    }
 }
