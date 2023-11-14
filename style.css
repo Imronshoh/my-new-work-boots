@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn__btn {
+  display: block;
+  height: 50px;
+  align-items: center;
+  background: rgb(36, 136, 207);
+  margin: 0 auto;
+}
+.nav__bar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+.nav__item:hover {
+  color:  rgb(87, 107, 131)";
+}
